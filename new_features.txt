@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 No new features will be created.
-=======
 This file has some new text.
->>>>>>> features
