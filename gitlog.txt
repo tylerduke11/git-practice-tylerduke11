@@ -1,0 +1,17 @@
+0472f83 Merge pull request #1 from byronhillstrom/main
+095893a add stylinfile
+5e12b71 solving the merge conflict pt2
+8953bc6 solving the merge conflict
+49ad6bf changed the new_features.txt file from the features branch
+d64bbc9 changed the text in new_features.txt
+296a610 merging the features branch with the main branch
+f8366f0 added a line to file_1.txt
+430d6fa add text to the new_features.txt file
+5717e99 add empty file
+6c622cb Create a Readme file
+66b1970 Changes to file_2.txt
+4f62939 Changes to file_1.txt
+e16d8f6 create new files
+555f799 Create gitignore
+b6296f9 edit text files
+f8d4bde create file_1.txt

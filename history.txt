@@ -1,0 +1,154 @@
+  396  $ brew install git
+  397  brew install git
+  398  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  399  brew install git
+  400  $ brew install git
+  401  git --version
+  402  $ git --version
+  403  git
+  404  sudo dnf install git-all
+  405  sudo apt install git-all
+  406  sudo install git-all
+  407  sudo port install git
+  408  brew install git-gui
+  409  which git
+  410  git --version
+  414  cd git
+  428  git --version
+  429  git config --global use.name "Tyler Duke"
+  430  git config --global use.name "Tyler Duke\n"
+  431  git config --global user.email "tylerduke111@gmail.com"
+  432  git config --global core.editor "code --wait"
+  433  git config --global init.defaultBrach main
+  448  git config --global init.defaultBranch main
+  449  git config --list
+  450  git config --global user.name "Tyler Duke"
+  451  git config --list
+  453  mkdir git_practice
+  454  cd git_practice
+  456  git status
+  457  git branch
+  458  git init
+  459  git status
+  460  git branch
+  462  rm -rf .git
+  463  git status
+  464  git init
+  468  git status
+  469  git add file_1.txt
+  470  git status
+  471  git commit -m 'create file_1.txt'
+  472  git status
+  473  git log
+  477  git status
+  478  git add file_1.txt
+  479  git status
+  480  git add file_2.txt
+  481  git status
+  482  git commit -m 'edit text files'
+  483  git status
+  488  git status
+  489  cd Downloads/BYU/7.F23/Stat386/git_practice
+  490  git status
+  491  git ignore .DS_Store
+  492  touch .gitignore
+  493  git rm --cached .DS_Store
+  496  nano .gitignore
+  497  git status
+  498  git add .
+  499  git commit -m 'Create gitignore'
+  500  git status
+  503  git status
+  505  nano .gitignore
+  508  git log
+  515  git status
+  516  git add .
+  517  git status
+  518  git commit -m "create new files"
+  519  git status
+  520  git log
+  523  git status
+  524  git add file_1.txt
+  525  git status
+  526  git commit -m 'Changes to file_1.txt'
+  527  git status
+  528  git commit -a -m 'Changes to file_2.txt'
+  529  git status
+  530  git log
+  534  git commit -a -m 'create a Readme file'
+  536  git commit -a -m 'Create a Readme file'
+  537  git add .
+  538  git commit -m 'Create a Readme file'
+  539  git status
+  540  nano .gitignore
+  542  git status
+  543  git branch features
+  544  git switch features
+  545  git log
+  547  git commit -a -m 'add empty file'
+  548  git add .
+  549  git commit -m 'add empty file'
+  551  git add .
+  552  git status
+  553  git commit -m 'add text to the new_features.txt file'
+  554  git switch main
+  557  git status
+  558  git add .
+  559  git commit -m 'added a line to file_1.txt'
+  560  git merge features
+  561  git commit
+  562  git status
+  563  git commit -m 'merging the features branch with the main branch'
+  564  git status
+  565  git log
+  568  git status
+  569  git add .
+  570  git commit -m 'changed the text in new_features.txt'
+  571  git switch features
+  574  git add .
+  575  git commit -m 'changed the new_features.txt file from the features branch'
+  576  git switch main
+  577  git merge features
+  580  git status
+  581  git add .
+  582  git commit -m 'solving the merge conflict'
+  584  git merge features
+  585  git branch --delete features
+  587  git remote
+  588  git status
+  589  git remote add origin git@github.com:tylerduke11/git-practice-tylerduke11.git
+  590  git push -u origin main
+  591  git remote
+  592  git remote -v
+  594  cd Downloads/BYU/7.F23/Stat386/git_practice/
+  595  git status
+  596  git log
+  597  git log --oneline
+  600  git origin
+  601  git push -u origin main
+  602  git status
+  603  git add .
+  604  git commit -m 'solving the merge conflict pt2'
+  605  git push -u origin main
+  606  git branch -a
+  609  git clone git@github.com:tylerduke11/git-practice-byronhillstrom.git
+  611  git branch feature-tylerduke11
+  612  git init
+  615  rm -rf .git
+  617  cd git-practice-byronhillstrom
+  619  git branch feature-tylerduke11
+  622  git status
+  623  git add .
+  624  git commit -m 'adding my new file'
+  625  git status
+  626  git push origin feature-tylerduke11
+  627  git status
+  628  git merge feature-tylerduke11
+  629  git switch main
+  630  git status
+  631  git push
+  635  cd git_practice
+  636  git status
+  637  git pull
+  639  git log --oneline
+  640  git log --oneline > gitlog.txt
